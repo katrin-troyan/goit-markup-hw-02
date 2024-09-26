@@ -57,7 +57,16 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal
+    font-style: normal;
+    color: #434455;
+}
+
+.contacts .contacts-mailto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
     color: #434455;
 }
 
@@ -66,6 +75,23 @@ ul {
 }
 
 .contacts .contacts-mailto:focus {
+    color: #404bbf;
+}
+
+.contacts-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+}
+
+.contacts .contacts-tel:hover {
+    color: #404bbf;
+}
+
+.contacts .contacts-tel:focus {
     color: #404bbf;
 }
 
@@ -78,6 +104,7 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
@@ -116,7 +143,7 @@ ul {
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .team-page {
@@ -125,7 +152,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -157,9 +184,10 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
     color: #2e2f42;
 }
+
 
 .portfolio-title {
         font-weight: 500;
@@ -185,7 +213,7 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -197,7 +225,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
